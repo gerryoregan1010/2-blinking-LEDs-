@@ -1,6 +1,6 @@
 #include "mbed.h"
 
-// Define the LED pins
+
 DigitalOut ledRed(LED1);   // Use LED1 for the first LED (often predefined)
 DigitalOut ledD13(D13);    // Define the D13 pin (usually pin 13 on most boards)
 
