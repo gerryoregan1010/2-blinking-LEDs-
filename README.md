@@ -2,10 +2,13 @@
 
 
 DigitalOut ledRed(LED1);   // Use LED1 for the first LED (often predefined)
+
 DigitalOut ledD13(LED2);    // Define the D13 pin (usually pin 13 on most boards)
 
 // Main program loop
+
 int main() {
+
     while (true) {
     
         switch(states){
