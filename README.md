@@ -25,7 +25,7 @@ int main() {
 
         // Turn off D13 LED
         ledD13 = 0;  // LOW
-        ThisThread::sleep_for(5000ms);  // Delay for 5000 milliseconds (5 seconds)}
+        ThisThread::sleep_for(5000ms);  // Delay for 5000 milliseconds (5 seconds)
         break;
     }
 }
