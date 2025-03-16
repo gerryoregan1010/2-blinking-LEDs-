@@ -7,7 +7,7 @@ DigitalOut ledD13(D13);    // Define the D13 pin (usually pin 13 on most boards)
 // Main program loop
 int main() {
     while (true) {
-        // Turn off LED Red
+        
         ledRed = 0;  // LOW
         ThisThread::sleep_for(2000ms);  // Delay for 2000 milliseconds (2 seconds)
 
